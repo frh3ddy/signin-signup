@@ -1,0 +1,11 @@
+<App>
+    <iOS.StatusBarConfig Style="Light" Animation="Slide" IsVisible="False" />
+    <FileImageSource ux:Global="checkMark" File="images/check@3x.png" />    
+    <PageControl ux:Name='root' Active="Auth" Interaction='None'>
+        <NavigationMotion GotoDuration='0'/>
+        <ux:Include File='Content.ux'/>
+        <ux:Include File='Login.ux'/>
+    </PageControl>
+    
+    <Image File='images/bg.jpg' StretchMode='Fill'/>
+</App>
